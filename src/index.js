@@ -1,13 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import { store } from './App/store';
+import {Provider} from 'react-redux'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import "./app-config.css"
+import "react-windows-ui/config/app-config.css";
+import "react-windows-ui/dist/react-windows-ui.min.css";
+import "react-windows-ui/icons/fonts/fonts.min.css";
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Provider store={store}>
+      <App />
+    </Provider>
   </React.StrictMode>
 );
 

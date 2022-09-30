@@ -2,6 +2,13 @@
   text-align: center;
 }
 
+.divBtn{
+ 
+    display: flex;
+    align-items: center;
+  
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
