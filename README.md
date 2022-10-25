@@ -1,15 +1,15 @@
-#Automatic-shift-arrangement
+# Automatic-shift-arrangement
 ...
 
-#Description = () =>
+# Description = () =>
 A feature that makes an automatic shift arrangement
 Enter the constraints of the employees - and the arrangement will be ready! 
 
-#Technologies = () =>  
+# Technologies = () =>  
 React | redux Toolkit | js 
 
 
-#folder structure  = () =>
+# folder structure  = () =>
 
 1)Features: Contains several folders of features, according to the official recommendation of redux toolkit.
 2) comps: Contains a main component, and a start component 
